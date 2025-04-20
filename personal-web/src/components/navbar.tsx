@@ -8,7 +8,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="top-0 z-50 h-[60px] w-screen bg-gradient-to-b from-teal-500 to-blue-500 max-sm:px-5 flex items-center justify-between px-10 shadow-2xl relative">
+        <div className="sticky top-0 z-50 h-[75px] w-screen bg-gradient-to-b from-teal-500 to-blue-500 max-sm:px-5 flex items-center justify-between px-10 shadow-2xl">
             <p className="text-lg font-semibold">Personal Website</p>
 
             {/* Desktop Nav */}
@@ -17,7 +17,7 @@ export default function Navbar() {
                 <Link href="#skills">Skills</Link>
                 <Link href="#portfolio">Portfolio</Link>
                 <Link href="#experience">Experience</Link>
-                <Link href="#testimonial">Testimonial</Link>
+                <Link href="#testimonials">Testimonials</Link>
                 <Link href="#contact">Contact</Link>
             </div>
 
@@ -35,7 +35,7 @@ export default function Navbar() {
                     <Link href="#skills" onClick={() => setIsOpen(false)}>Skills</Link>
                     <Link href="#portfolio" onClick={() => setIsOpen(false)}>Portfolio</Link>
                     <Link href="#experience" onClick={() => setIsOpen(false)}>Experience</Link>
-                    <Link href="#testimonial" onClick={() => setIsOpen(false)}>Testimonial</Link>
+                    <Link href="#testimonials" onClick={() => setIsOpen(false)}>Testimonials</Link>
                     <Link href="#contact" onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
             )}

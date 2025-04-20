@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiPython, SiPhp, SiHtml5, SiCss3, SiLaravel, SiMysql } from "react-icons/si";
 import { FaClock, FaEye, FaComments } from "react-icons/fa"
 

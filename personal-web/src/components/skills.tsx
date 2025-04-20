@@ -1,10 +1,13 @@
 "use client";
 
-import React from "react";
+
 import {
     SiHtml5, SiCss3, SiJavascript, SiReact, SiAngular,
     SiNodedotjs, SiExpress, SiDjango, SiRubyonrails,
-    SiDocker, SiGit, SiJenkins, SiAmazon, SiGithubactions
+    SiDocker, SiGit, SiJenkins, SiAmazon, SiGithubactions,
+    SiMysql,
+    SiBootstrap,
+    SiBackendless
 } from "react-icons/si";
 
 export default function Skills() {
@@ -20,24 +23,21 @@ export default function Skills() {
                     { icon: <SiCss3 size={32} />, label: "CSS" },
                     { icon: <SiJavascript size={32} />, label: "JavaScript" },
                     { icon: <SiReact size={32} />, label: "React" },
-                    { icon: <SiAngular size={32} />, label: "Angular" },
+                    { icon: <SiBootstrap size={32} />, label: "Bootstrap" },
                 ]} />
 
                 {/* Back-End Skills */}
                 <SkillCategory title="Back-End Skills" skills={[
                     { icon: <SiNodedotjs size={32} />, label: "Node.js" },
                     { icon: <SiExpress size={32} />, label: "Express" },
-                    { icon: <SiDjango size={32} />, label: "Django" },
-                    { icon: <SiRubyonrails size={32} />, label: "Rails" },
+                    { icon: <SiMysql size={32} />, label: "MySQL" },
+                    { icon: <SiBackendless size={32} />, label: "Backendless" },
                 ]} />
 
                 {/* DevOps & Tools */}
                 <SkillCategory title="DevOps & Tools" skills={[
                     { icon: <SiDocker size={32} />, label: "Docker" },
                     { icon: <SiGit size={32} />, label: "Git" },
-                    { icon: <SiJenkins size={32} />, label: "Jenkins" },
-                    { icon: <SiAmazon size={32} />, label: "AWS" },
-                    { icon: <SiGithubactions size={32} />, label: "CI/CD" },
                 ]} />
             </div>
         </section>
