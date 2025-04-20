@@ -12,7 +12,7 @@ export default function Navbar() {
             <p className="text-lg font-semibold">Personal Website</p>
 
             {/* Desktop Nav */}
-            <div className="hidden sm:flex items-center gap-6 h-[30px] absolute left-1/2 transform -translate-x-1/2">
+            <div className="hidden sm:flex items-center gap-6 h-[30px] absolute left-1/2 transform -translate-x-1/2 font-bold">
                 <Link href="#about">About</Link>
                 <Link href="#skills">Skills</Link>
                 <Link href="#portfolio">Portfolio</Link>

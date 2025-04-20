@@ -2,6 +2,7 @@
 
 import React from "react";
 import { SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiPython, SiPhp, SiHtml5, SiCss3, SiLaravel, SiMysql } from "react-icons/si";
+import { FaClock, FaEye, FaComments } from "react-icons/fa"
 
 export default function About() {
     return (
@@ -42,10 +43,19 @@ export default function About() {
                 {/* 3. Key Values */}
                 <div className="space-y-4 text-center sm:text-left">
                     <h3 className="text-xl font-semibold">Key Values</h3>
-                    <ul className="list-disc list-inside max-w-2xl mx-auto sm:mx-0 space-y-1">
-                        <li><strong>Timeliness:</strong> I believe in meeting deadlines and delivering work on schedule.</li>
-                        <li><strong>Attention to Detail:</strong> I care deeply about clean code and pixel-perfect UI.</li>
-                        <li><strong>Clear Communication:</strong> Whether in code or conversation, clarity is key to collaboration.</li>
+                    <ul className="max-w-2xl mx-auto sm:mx-0 space-y-3">
+                        <li className="flex items-start gap-3">
+                            <FaClock className="mt-1 text-blue-600" />
+                            <span><strong>Timeliness:</strong> I believe in meeting deadlines and delivering work on schedule.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                            <FaEye className="mt-1 text-blue-600" />
+                            <span><strong>Attention to Detail:</strong> I care deeply about clean code and pixel-perfect UI.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                            <FaComments className="mt-1 text-blue-600" />
+                            <span><strong>Clear Communication:</strong> Whether in code or conversation, clarity is key to collaboration.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
