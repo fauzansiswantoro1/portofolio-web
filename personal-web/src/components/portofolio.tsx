@@ -32,7 +32,7 @@ const projects = [
 
 export default function PortfolioSection() {
   return (
-    <section id="portfolio" className="px-6 py-20 bg-gray-50">
+    <section id="portfolio" className="scroll-mt-20 px-6 py-20 bg-gray-50">
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4 text-black">My Projects</h2>
         

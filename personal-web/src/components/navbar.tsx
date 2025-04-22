@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return (
         <div className="sticky top-0 z-50 h-[70px] w-screen bg-gradient-to-b from-teal-500 to-blue-500 max-sm:px-5 flex items-center justify-between px-10 shadow-2xl">
-            <Link href="/" className="text-lg font-semibold text-white">Personal Website</Link>
+            <Link href="/#hero" className="text-lg font-semibold text-white">Fauzan Siswantoro</Link>
 
             {/* Desktop Nav */}
             <div className="text-white hidden sm:flex items-center gap-6 h-[30px] absolute left-1/2 transform -translate-x-1/2 font-bold">

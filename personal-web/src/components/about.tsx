@@ -6,7 +6,7 @@ import { FaClock, FaEye, FaComments } from "react-icons/fa"
 
 export default function About() {
     return (
-        <section id="about" className="w-full bg-gray-50 py-16 px-6 sm:px-16 text-gray-800">
+        <section id="about" className="scroll-mt-20 w-full bg-gray-50 py-16 px-6 sm:px-16 text-gray-800">
             <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-12">
                 
                 {/* Section Header */}

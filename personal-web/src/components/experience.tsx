@@ -40,7 +40,7 @@ export default function Experience() {
     ];
 
     return (
-        <section id="experience" className="w-full py-16 px-6 sm:px-16 bg-gray-50 text-gray-800">
+        <section id="experience" className="scroll-mt-20 w-full py-16 px-6 sm:px-16 bg-gray-50 text-gray-800">
             <div className="max-w-6xl mx-auto flex flex-col space-y-12">
                 <h2 className="text-3xl font-bold text-center">Experience</h2>
 

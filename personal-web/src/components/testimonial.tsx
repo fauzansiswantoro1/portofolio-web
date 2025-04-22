@@ -22,7 +22,7 @@ const testimonials = [
 
 export default function Testimonials() {
     return (
-        <section id="testimonials" className="w-full bg-white py-16 px-6 sm:px-16 text-gray-800">
+        <section id="testimonials" className="scroll-mt-20 w-full bg-white py-16 px-6 sm:px-16 text-gray-800">
             <div className="max-w-6xl mx-auto text-center space-y-12">
                 <h2 className="text-3xl font-bold">Client Testimonials</h2>
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

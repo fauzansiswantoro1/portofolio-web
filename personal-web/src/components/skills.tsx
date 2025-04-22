@@ -28,7 +28,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full bg-blue-50 py-16 px-6 sm:px-16 text-gray-800">
+    <section id="skills" className="scroll-mt-20 w-full bg-blue-50 py-16 px-6 sm:px-16 text-gray-800">
       <div className="max-w-6xl mx-auto space-y-12">
         <h2 className="text-3xl font-bold text-center">Skills</h2>
 
