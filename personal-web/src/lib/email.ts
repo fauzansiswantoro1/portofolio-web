@@ -10,8 +10,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const send = async (emailFormData: z.infer<typeof formSchema>) => {
   try {
-    // TODO: Add this emailFormData to some database
-
+    
     // Construct the email body for the internal email (for fauzansiswantoro@gmail.com)
     const emailBody = `
       <p><strong>Name:</strong> ${emailFormData.firstName}</p>
@@ -34,7 +33,7 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
 
     // Send a plain email to fauzansiswantoro@gmail.com (internal notification)
     const { error: internalError } = await resend.emails.send({
-      from: `Fauzan Personal Web <${process.env.RESEND_FROM_EMAIL}>`,
+      from: `Fauzan Personal Web<${process.env.RESEND_FROM_EMAIL}>`,
       to: ["fauzansiswantoro@gmail.com"],
       subject: "New Message from Contact Form",
       html: emailBody,  // Include the message content as HTML
@@ -43,6 +42,9 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
     if (internalError) {
       throw internalError;
     }
+
+    // Return success message if emails were sent successfully
+    return { success: true, message: "Your message was successfully sent!" };
 
   } catch (e) {
     throw e;
