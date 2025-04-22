@@ -44,7 +44,7 @@ export default function Hero() {
                     src="/photo-fauzan.jpeg"
                     alt="Muhamad Fauzan Siswantoro"
                     fill
-                    className="object-cover"
+                    className="object-cover hover:scale-125"
                     priority
                 />
             </div>
