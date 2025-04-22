@@ -17,8 +17,8 @@ export default function Hero() {
                 Full-Stack Web Developer
             </h2>
             <p className="text-lg sm:text-xl text-gray-700 mb-8">
-                I specialize in building high-quality web applications from front-end design to back-end functionality.
-                Passionate about clean code, modern frameworks, and creating seamless user experiences.
+                I specialize in IT business analyst and building high-quality web applications from front-end design to back-end functionality.
+                Passionate about IT bussiness analyst, clean code, modern frameworks, and creating seamless user experiences.
             </p>
 
             <div className="flex justify-center sm:justify-start gap-5">

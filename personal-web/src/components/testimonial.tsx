@@ -40,7 +40,7 @@ export default function Testimonials() {
                                         className="object-cover"
                                     />
                                 </div>
-                                <p className="text-gray-600 italic text-sm">"{t.quote}"</p>
+                                <p className="text-gray-600 italic text-sm">{t.quote}</p>
                                 <h4 className="text-lg font-semibold text-gray-800">{t.name}</h4>
                             </div>
                         </div>

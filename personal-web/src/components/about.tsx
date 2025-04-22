@@ -16,7 +16,7 @@ export default function About() {
                 <div className="space-y-4 text-center sm:text-left">
                     <h3 className="text-xl font-semibold">Brief Bio</h3>
                     <p className="max-w-4xl mx-auto sm:mx-0">
-                        I'm Muhamad Fauzan Siswantoro, a Full-Stack Web Developer passionate about crafting efficient and elegant digital solutions.
+                        Im Muhamad Fauzan Siswantoro, a Full-Stack Web Developer passionate about crafting efficient and elegant digital solutions.
                         With a background in software development and a strong interest in user-centric design, I enjoy working across the stack to
                         build seamless, scalable applications. Over the years, I’ve collaborated with cross-functional teams and contributed to
                         diverse projects in both freelance and company environments.
