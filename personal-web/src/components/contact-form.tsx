@@ -60,7 +60,7 @@ export default function ContactForm() {
       <div>
         <Card className="mx-auto max-w-md">
           <CardHeader>
-            <CardTitle>Contact Us</CardTitle>
+            <CardTitle>Contact Me</CardTitle>
             <CardDescription>
               Fill out the form below and I will get back to you as soon as possible.
             </CardDescription>
