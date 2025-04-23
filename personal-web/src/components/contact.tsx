@@ -12,12 +12,12 @@ export default function Contact() {
 
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                    
-                    <div className="w-full bg-gray-400 p-6 rounded-lg shadow-md">
+                    <div className="w-full bg-gradient-to-b from-teal-500 to-blue-500 p-6 rounded-lg shadow-md">
                         <ContactInfoCard />
                     </div>
 
                     
-                    <div className="w-full bg-gray-400 p-6 rounded-lg shadow-md">
+                    <div className="w-full bg-gradient-to-b from-teal-500 to-blue-500 p-6 rounded-lg shadow-md">
                         <ContactForm />
                     </div>
                 </div>
