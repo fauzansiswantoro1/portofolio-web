@@ -25,7 +25,9 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
       to: [emailFormData.email],
       subject: "Thank you for reaching out!",
       react: EmailTemplate({ firstName: emailFormData.firstName }) as ReactNode,
+      replyTo: emailFormData.email,
     });
+    
 
     if (userError) {
       throw userError;
@@ -33,10 +35,11 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
 
     // Send a plain email to fauzansiswantoro@gmail.com (internal notification)
     const { error: internalError } = await resend.emails.send({
-      from: `Fauzan Personal Web<${process.env.RESEND_FROM_EMAIL}>`,
+      from: `Fauzan Personal Web <${process.env.RESEND_FROM_EMAIL}>`,
       to: ["fauzansiswantoro@gmail.com"],
       subject: "New Message from Contact Form",
-      html: emailBody,  // Include the message content as HTML
+      html: emailBody,
+      replyTo: emailFormData.email,
     });
 
     if (internalError) {
