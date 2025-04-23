@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function Page(){
@@ -21,6 +22,9 @@ export default function Page(){
       
 
     </div>
-        </div>
+      <div className="mt-9">
+        <Footer/>
+      </div>
+    </div>
     )
 }
